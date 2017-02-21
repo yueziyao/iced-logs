@@ -85,7 +85,7 @@
     })
     $(".btn").bind("click", function(){
         $.ajax({
-            url:'/clear',
+            url:'/clean',
             success:function(res) {
                 location.reload();
             }
